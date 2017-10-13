@@ -1,0 +1,70 @@
+/* reset */
+a{
+    // 取消a标签手指按下时出现的黑色遮罩层
+    -webkit-tap-highlight-color:transparent;
+    text-decoration: none;
+    color: #818788;
+}
+input {
+    // 解决IOS下表单元素圆角的问题
+    -webkit-appearance:none;
+    
+}
+body,h1,h2,h3,h4,h5,h6,p,dl,dd {
+  margin: 0;
+  -webkit-text-size-adjust: 100%;
+  font-family: Helvetica;
+}
+ul,ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+img {
+  border: 0 none;
+  vertical-align: top;
+}
+a {
+  text-decoration: none;
+}
+a,
+input,
+button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-appearance: none;
+  outline: none;
+}
+html,body{
+    font-family: "微软雅黑";
+}
+body{
+    position: relative;
+}
+/* 工具样式 */
+.clearfix { *zoom:1; }
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/*重新定义显示框*/
+.mui-toast-container{
+    text-align: center;
+}
+.mui-toast-container{
+    .mui-toast-message {
+        font-size: 28/@rem;
+        width: auto;
+        height: 120/@rem;
+        display: inline-block;
+        padding: 0 80/@rem;
+        color: #fff;
+        border-radius: 8px;
+        background-color: rgba(0,0,0,0.8);
+        line-height: 120/@rem;
+        margin: 0;
+        
+    }
+}
+//变量 定义rem大小，并设置单位
+@rem: 45rem;

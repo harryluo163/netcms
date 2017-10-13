@@ -1,0 +1,431 @@
+.index .title {
+  padding-left: 30px;
+  height: 38px;
+  line-height: 38px;
+  font-size: 18px;
+}
+.index .title span {
+  font-size: 14px;
+}
+.index #introduce .title {
+  color: #d80c24;
+  border-bottom: 2px solid #d80c24;
+  background: url(../images/titelBj.png) repeat-x;
+}
+.index #introduce .title a {
+  color: #d80c24;
+}
+.index #introduce .company {
+  float: left;
+  width: 480px;
+}
+.index #introduce .company .title {
+  width: 449px;
+  border-right: 1px solid #fff;
+}
+.index #introduce .company .cont {
+  padding: 17px 20px 19px 20px;
+  font-size: 14px;
+  color: #000;
+  line-height: 28px;
+  width: 439px;
+  border-right: 1px dashed #43378e;
+}
+.index #introduce .cstomer {
+  float: left;
+  width: 710px;
+}
+.index #introduce .cstomer .title {
+  width: 680px;
+}
+.index #introduce .cstomer .top_slider {
+  width: 710px;
+}
+.index #introduce .cstomer .top_slider .slider_list {
+  height: 428px;
+}
+.index #introduce .cstomer .top_slider .ts_inner {
+  width: 710px;
+}
+.index #introduce .cstomer .top_slider .slider_item {
+  width: 710px;
+  height: 428px;
+}
+.index #introduce .cstomer .top_slider .slider_btn_left,
+.index #introduce .cstomer .top_slider .slider_btn_right {
+  top: 175px;
+}
+.index #product .classification {
+  float: left;
+  width: 710px;
+}
+.index #product .classification .title {
+  width: 679px;
+  color: #fff;
+  background: url(../images/classificationBj.png) repeat-y;
+  border-bottom: 2px solid #c50080;
+  border-right: 1px solid #fff;
+}
+.index #product .classification .title a {
+  color: #fff;
+}
+.index #product .classification .cont {
+  width: 665px;
+  padding: 5px 22px;
+  background-color: #e7e6e4;
+  border-right: 1px dashed #43378e;
+}
+.index #product .classification .cont li {
+  float: left;
+  margin: 5px;
+  width: 96px;
+  height: 96px;
+  border: 2px solid #fff;
+  border-radius: 4px;
+  background-color: #e7e6e4;
+  overflow: hidden;
+}
+.index #product .classification .cont li .imgBox {
+  padding: 4px 8px;
+  width: 80px;
+  height: 64px;
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.index #product .classification .cont li .imgBox div {
+  position: static;
+  *position: absolute;
+  top: 50%;
+  display: inline-block;
+}
+.index #product .classification .cont li .imgBox div img {
+  position: static;
+  *position: relative;
+  top: -50%;
+}
+.index #product .classification .cont li p {
+  padding-bottom: 4px;
+  height: 20px;
+  line-height: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #5c0002;
+  font-family: "微软雅黑";
+}
+.index #product .classification .cont li p.active {
+  color: #d80c24;
+}
+.index #product .advantage {
+  float: left;
+  width: 480px;
+}
+.index #product .advantage .title {
+  width: 450px;
+  color: #fff;
+  background: url(../images/ysBj.png) repeat-x;
+  border-bottom: 2px solid #c50080;
+}
+.index #product .advantage .title a {
+  color: #fff;
+}
+.index #product .advantage .top_slider {
+  width: 480px;
+}
+.index #product .advantage .top_slider .slider_list {
+  height: 340px;
+}
+.index #product .advantage .top_slider .ts_inner {
+  width: 480px;
+}
+.index #product .advantage .top_slider .slider_item {
+  width: 480px;
+  height: 340px;
+}
+.index #product .advantage .top_slider .slider_btn_left,
+.index #product .advantage .top_slider .slider_btn_right {
+  top: 138px;
+}
+.index #news .title {
+  width: 366px;
+  color: #000;
+  border-bottom: 2px solid #d80c24;
+}
+.index #news .title a {
+  color: #000;
+}
+.index #news .cont {
+  padding: 12px 28px;
+}
+.index #news .cont li {
+  width: 340px;
+  height: 30px;
+  border-bottom: 1px dashed #030000;
+}
+.index #news .cont li a {
+  display: inline-block;
+}
+.index #news .cont li a p,
+.index #news .cont li a span {
+  font-family: "微软雅黑";
+  color: #333;
+  height: 30px;
+  line-height: 30px;
+  font-size: 14px;
+}
+.index #news .cont li a p {
+  float: left;
+  width: 258px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.index #news .cont li a span {
+  float: right;
+  width: 82px;
+}
+.index #news .cont li a:hover p,
+.index #news .cont li a:hover span {
+  color: #d80c24;
+}
+.index #news .company,
+.index #news .design,
+.index #news .printing {
+  float: left;
+  width: 396px;
+}
+.index #news .company {
+  width: 398px;
+}
+.index #news .company .title {
+  width: 368px;
+  background-color: #8d6dee;
+}
+.index #news .company .cont {
+  padding: 12px 29px;
+}
+.index #news .design .title {
+  background-color: #e76c45;
+}
+.index #news .printing .title {
+  background-color: #e3bd45;
+}
+.contactus {
+  padding: 40px 0;
+}
+.contactus .box {
+  width: 1100px;
+  margin: 0 auto;
+}
+.contactus .box .map {
+  float: left;
+  width: 688px;
+  height: 498px;
+  border: #ccc solid 1px;
+}
+.contactus .box .mapTxt {
+  float: left;
+  margin-left: 50px;
+}
+.contactus .box .mapTxt p {
+  height: 36px;
+  line-height: 36px;
+  font-size: 16px;
+  color: #666666;
+}
+.contactus .box .mapTxt p.tt {
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  color: #333333;
+}
+.iw_poi_title {
+  color: #CC5522;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  padding-right: 13px;
+  white-space: nowrap;
+}
+.iw_poi_content {
+  font: 12px arial, sans-serif;
+  overflow: visible;
+  padding-top: 4px;
+  white-space: -moz-pre-wrap;
+  word-wrap: break-word;
+}
+#platform .BMap_Marker {
+  background: #000;
+}
+.customerGroup {
+  width: 1190px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 10px 0 44px 0;
+}
+.customerGroup .tt {
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.customerGroup .tt span {
+  font-size: 14px;
+}
+.customerGroup .startAndStop {
+  width: 1040px;
+  height: 30px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+  position: relative;
+}
+.customerGroup .startAndStop .customerTt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1040px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+}
+.customerGroup .startAndStop .customerTt span {
+  font-size: 14px;
+}
+.customerGroup .startAndStop a {
+  display: inline-block;
+  width: 140px;
+  height: 30px;
+  line-height: 30px;
+  float: right;
+  text-align: center;
+  color: #fff;
+  background: #999;
+}
+.customerGroup #scrollBox {
+  width: 1040px;
+  height: 670px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  background: #fff;
+  cursor: pointer;
+  border: 1px solid #666666;
+}
+.customerGroup #scrollBox #box1 {
+  width: 1020px;
+  padding-right: 20px;
+}
+.customerGroup #scrollBox #box1 ul li {
+  float: left;
+  width: 255px;
+  height: 100px;
+  margin-bottom: 45px;
+  text-align: center;
+}
+.customerGroup #scrollBox #box1 ul li span {
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+}
+.customerGroup #scrollBox #box1 ul li img {
+  display: inline-block;
+  vertical-align: middle;
+}
+.sertee {
+  width: 982px;
+  margin: 0 auto;
+  padding: 22px 0px 58px 0px;
+}
+.sertee h2 {
+  height: 32px;
+  line-height: 32px;
+  font-size: 18px;
+  color: #333;
+  text-align: center;
+}
+.sertee h2 span {
+  font-size: 14px;
+}
+.sertee #navTall {
+  padding: 25px 0 25px 58px;
+  height: 34px;
+}
+.sertee #navTall li {
+  float: left;
+  width: 140px;
+  height: 34px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.sertee #navTall li p {
+  position: absolute;
+  top: -34px;
+  left: 0;
+  width: 140px;
+  height: 34px;
+  background-color: #d8d5df;
+}
+.sertee #navTall li div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 140px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  font-size: 18px;
+  color: #333;
+}
+.sertee #guaranteExplain {
+  padding: 20px 0px 0px 20px;
+  border: 1px solid #d8d5df;
+}
+.sertee #guaranteExplain ul li {
+  float: left;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  width: 300px;
+  height: 300px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+.sertee #guaranteExplain ul li .serviceBox {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  left: 0;
+  top: -300px;
+  background-color: #d8d5df;
+  z-index: 1;
+}
+.sertee #guaranteExplain ul li .serviceCont {
+  position: absolute;
+  top: 0;
+  left: 0px;
+  width: 276px;
+  height: 300px;
+  padding: 0 12px;
+  z-index: 2;
+  display: table;
+}
+.sertee #guaranteExplain ul li .serviceCont div {
+  width: 100%;
+  height: 100%;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.sertee #guaranteExplain ul li .serviceCont div span {
+  color: #d80c24;
+  font-size: 14px;
+}

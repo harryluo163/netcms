@@ -1,0 +1,176 @@
+.case {
+  padding: 20px 35px 44px 35px;
+  width: 1120px;
+  background: #fff;
+  margin: 0 auto;
+}
+.case h4 {
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #333;
+  font-size: 18px;
+  font-weight: 100;
+  background-color: #d8d5df;
+}
+.case #caseType {
+  float: left;
+  width: 202px;
+}
+.case #caseType .caseWarpBox {
+  border: 1px solid #d8d5df;
+}
+.case #caseType ul {
+  padding: 10px 0 24px 0;
+  width: 202px;
+}
+.case #caseType ul li {
+  float: left;
+  padding: 0 0 0 18px;
+  width: 83px;
+  height: 42px;
+  line-height: 42px;
+  color: #999999;
+  font-size: 12px;
+}
+.case #caseType ul li a {
+  color: #999999;
+  font-size: 14px;
+}
+.case #caseType ul li a.active {
+  color: #d80c24;
+}
+.case #caseType .caseAddrInfo {
+  margin: 0 auto;
+  padding: 6px 0px;
+  width: 190px;
+  border-top: 1px dashed #d8d5df;
+}
+.case #caseType .caseAddrInfo p {
+  font-size: 12px;
+  color: #6a6a6a;
+  line-height: 26px;
+  text-align: center;
+}
+.case #caseExhibition {
+  float: right;
+  width: 875px;
+}
+.case #caseExhibition ul {
+  padding: 15px 15px 15px 18px;
+  width: 840px;
+  border: 1px solid #d8d5df;
+  overflow: hidden;
+}
+.case #caseExhibition ul li{
+  float: left;
+  padding: 5px;
+  width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+.case #caseExhibition ul li a{ 
+	display: block;
+	width: 200px;
+  height: 150px;
+  overflow: hidden;
+}
+.case #caseExhibition ul li img {
+  width: 100%;
+}
+.case .caseGoodInfo {
+  float: right;
+  width: 880px;
+  overflow: hidden;
+}
+.case .caseGoodInfo .goodInfo {
+  border: 1px solid #d8d5df;
+  padding: 29px 39px;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg {
+  width: 805px;
+  position: relative;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #prvo,
+.case .caseGoodInfo .goodInfo .goodInfoImg #next {
+  background: url(../images/caseGoodBtn.png) no-repeat;
+  _background: url(../images/caseGoodBtn.png) no-repeat;
+  display: block;
+  width: 56px;
+  height: 29px;
+  position: absolute;
+  z-index: 5;
+  opacity: .7;
+  filter: alpha(opacity=70);
+  right: 36px;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #prvo {
+  background-position: 0 0;
+  top: -29px;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #next {
+  background-position: -61px 0;
+  bottom: -29px;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #prvo:hover,
+.case .caseGoodInfo .goodInfo .goodInfoImg #next:hover {
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImg {
+  /*width: 640px;
+  height: 456px;*/
+  position: absolute; top: 0; left: 0;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImg b{ width: 640px;
+  height: 456px; float: left; border: 1px solid #333; box-sizing: border-box;}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImg img {
+  width: 100%;
+  height: 100%;
+  vertical-align: bottom;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList {
+  position: relative;
+  float: right;
+  width: 130px;
+  height: 456px;
+  overflow: hidden;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130px;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList ul li{ height: 456px; overflow: hidden;}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList ul li b {
+  width: 128px;
+  height: 86px;
+  border: 1px solid #666;
+  margin-bottom: 4px;
+  cursor: pointer;
+  display: block;
+}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList ul li b.active{ border: 1px solid #000}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList ul li b:last-child{ margin-bottom: 0;}
+.case .caseGoodInfo .goodInfo .goodInfoImg #goodImgList ul li img {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  border: 0 none;
+  vertical-align: bottom;
+}
+.case .caseGoodInfo .goodInfo .goodInfoTxt {
+  margin-top: 29px;
+  border-top: 1px dashed #d8d5df;
+  padding-top: 10px;
+}
+.case .caseGoodInfo .goodInfo .goodInfoTxt p {
+  font-size: 12px;
+  color: #6a6a6a;
+  line-height: 20px;
+}
+.marGin {
+  margin-left: 40px;
+}

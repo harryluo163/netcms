@@ -1,0 +1,23 @@
+﻿/*首页案例*/
+.case_bt{ width: 100%; height: 38px; line-height: 38px; border-bottom: 2px solid #c50080; background: url(../images/ysBj.png) repeat-x;}
+.case_bt a{ text-decoration: none; color: #fff; font-size: 18px; padding: 0 15px 0 30px;}
+.case_bt span{ color: #fff; font-size: 14px;}
+.case_list{ margin-bottom: 25px;}
+.case_list ul li{ width: 162px; margin: 25px 38px 0 0; float: left;}
+.case_list ul li b{ display: block; width: 160px; height: 120px; border: 1px solid #ddd; overflow: hidden;}
+.case_list ul li b img{ display: block; width:100%; height:100%;}
+.case_list ul li a{ display: block; text-decoration: none; font-size: 12px; margin-top: 12px; text-align: center; color: #221815; white-space: nowrap; text-overflow: ellipsis; overflow: hidden;line-height: 100%;}
+.case_list ul li b a{ margin-top: 0;}
+.case_list ul li:nth-child(6n){ margin-right: 0;}
+.case_list ul li a:hover{ color: #d80c24;}
+.case_list ul li.ml{ margin-left: 14px;}
+/*分页码*/
+.page{ text-align: right; margin: 20px auto 0;}
+.page a{ display: inline-block; width: 26px; height: 25px; line-height: 25px; text-align: center; border: 1px solid #ddd; text-decoration: none; font-size: 12px;}
+.page a:first-of-type,.page a:last-of-type{ width: 55px;}
+.page a:hover,.page a.col_253885{ background: #d80c24; color: #fff; border: 1px solid #d80c24;}
+.page b{ font-weight: normal; padding-left: 2px; font-size: 12px;}
+.page input{ border: 1px solid #ddd; background: #fff; width: 50px; height: 25px; text-align: center; box-sizing: border-box;}
+/*案例列表*/
+.case #caseExhibition .caseList li{ width: 261px; height: 197px; padding: 9px;}
+.case #caseExhibition .caseList li a{ display: block; width: 261px; height: 197px;}
